@@ -1,0 +1,19 @@
+.h1 {
+    font-size: clamp(22px, 4.5vw, 26px);
+    font-weight: 500;
+    text-align: left;
+}
+
+.h2 {
+    margin: 0;
+    font-size: clamp(18px, 4.5vw, 22px);
+    font-weight: 500;
+    color: #3b434e;
+}
+
+.h3 {
+    font-size: clamp(18px, 4vw, 20px);
+    font-weight: 600;
+    color: #3b434e;
+    text-align: left;
+}

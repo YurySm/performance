@@ -1,0 +1,20 @@
+.pagination {
+  margin: 30px;
+  &__text {
+    text-align: center;
+    & span {
+      font-weight: 500;
+      font-size: 20px;
+    }
+  }
+  &__btns {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    & > button.active {
+      background-color: var(--color-primary);
+      color: var(--color-white);
+    }
+  }
+}

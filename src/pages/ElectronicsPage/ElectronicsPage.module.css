@@ -1,0 +1,9 @@
+.addBtn {
+  margin: 40px auto 0;
+}
+.addBtn:disabled {
+  cursor: unset;
+  background-color: var(--color-primary-750);
+}
+
+/*# sourceMappingURL=ElectronicsPage.module.css.map */

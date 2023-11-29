@@ -1,0 +1,22 @@
+.sort {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+.sort p {
+  text-align: center;
+  padding-bottom: 5px;
+}
+.sort button:not(:last-child) {
+  margin-right: 5px;
+}
+
+.addBtn {
+  margin: 40px auto 0;
+}
+.addBtn:disabled {
+  cursor: unset;
+  background-color: var(--color-primary-750);
+}
+
+/*# sourceMappingURL=FoodPage.module.css.map */

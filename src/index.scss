@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+  --color-primary: #4A3AFF;
+  --color-primary-hover: #1F11BFFF;
+  --color-primary-750: rgba(74, 58, 255, 0.75);
+  --color-white: rgba(255, 255, 255, 1);
+  --color-white-750: rgba(255, 255, 255, .75);
+  --color-white-600: rgba(255, 255, 255, .6);
+  --color-black: rgba(0, 0, 0, 1);
+  --color-black-400: rgba(0, 0, 0, .4);
+  --color-grey: rgba(99, 99, 99);
+  --color-grey-light: #dee2e6;
+  --color-red: #dc3545;
+
+  --header-bg: rgb(47, 50, 53);
+  --body-bg: rgba(255, 255, 255);
+  --modal-bg: rgba(255, 255, 255);
+}
+
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  font-family: 'Roboto';
+  height: 100%;
+  width: 100%;
+  line-height: 1;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  background: var(--body-bg);
+}
+
+hr {
+  display: block;
+  border-bottom: 1px solid var(--color-grey-light);
+  margin: 5px 0;
+}
+
+.page-list {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1vw;
+}
+
+.page-title {
+  text-transform: uppercase;
+  text-align: center!important;
+}
